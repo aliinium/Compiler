@@ -1,0 +1,3 @@
+dim x as integer
+x = 164
+print(x)

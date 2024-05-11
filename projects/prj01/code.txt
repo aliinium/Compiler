@@ -1,0 +1,5 @@
+dim x as integer
+dim y as integer
+x= 5
+y= 5
+if (x==y) then print "Hello/(*#"

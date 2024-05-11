@@ -1,0 +1,3 @@
+/Users/aliinium/Desktop/Uni-Assignments/Compiler/projects/prj01/cmake-build-debug/CMakeFiles/prj01.dir
+/Users/aliinium/Desktop/Uni-Assignments/Compiler/projects/prj01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aliinium/Desktop/Uni-Assignments/Compiler/projects/prj01/cmake-build-debug/CMakeFiles/rebuild_cache.dir

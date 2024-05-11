@@ -16,7 +16,7 @@ def sp(input):
     
     return r
 
-with open("/Users/aliinium/Desktop/w/compiler/pr-2/code.txt", "r") as file:
+with open("/Users/aliinium/Desktop/Uni-Assignments/compiler/pr-2/code.txt", "r") as file:
     f = file.read()
 
 print(sp(f))
