@@ -121,17 +121,17 @@ class PascalInterpreter:
             raise ValueError(f"Unknown operator {operator}")
 
 
-print("""
-        ___  ___ _         _  ______                        _ 
-        |  \/  |(_)       (_) | ___ \                      | |
-        | .  . | _  _ __   _  | |_/ /__ _  ___   ___  __ _ | |
-        | |\/| || || '_ \ | | |  __// _` |/ __| / __|/ _` || |
-        | |  | || || | | || | | |  | (_| |\__ \| (__| (_| || |
-        \_|  |_/|_||_| |_||_| \_|   \__,_||___/ \___|\__,_||_|
+# print("""
+#         ___  ___ _         _  ______                        _ 
+#         |  \/  |(_)       (_) | ___ \                      | |
+#         | .  . | _  _ __   _  | |_/ /__ _  ___   ___  __ _ | |
+#         | |\/| || || '_ \ | | |  __// _` |/ __| / __|/ _` || |
+#         | |  | || || | | || | | |  | (_| |\__ \| (__| (_| || |
+#         \_|  |_/|_||_| |_||_| \_|   \__,_||___/ \___|\__,_||_|
       
-                    github:          @aliinium
-                    linkedin:        @aliinium-                                   
-""")
+#                     github:          @aliinium
+#                     linkedin:        @aliinium-                                   
+# """)
 
-interpreter = PascalInterpreter('4.pas')
+interpreter = PascalInterpreter('0.pas')
 interpreter.execute()
