@@ -120,5 +120,18 @@ class PascalInterpreter:
         else:
             raise ValueError(f"Unknown operator {operator}")
 
-interpreter = PascalInterpreter('2.pas')
+
+print("""
+        ___  ___ _         _  ______                        _ 
+        |  \/  |(_)       (_) | ___ \                      | |
+        | .  . | _  _ __   _  | |_/ /__ _  ___   ___  __ _ | |
+        | |\/| || || '_ \ | | |  __// _` |/ __| / __|/ _` || |
+        | |  | || || | | || | | |  | (_| |\__ \| (__| (_| || |
+        \_|  |_/|_||_| |_||_| \_|   \__,_||___/ \___|\__,_||_|
+      
+                    github:          @aliinium
+                    linkedin:        @aliinium-                                   
+""")
+
+interpreter = PascalInterpreter('4.pas')
 interpreter.execute()
