@@ -43,7 +43,6 @@ class PascalInterpreter:
                 self.execute_statement(statement.strip())
 
     def split_statements(self, code):
-        # Splits the code into individual statements while handling nested begin-end blocks
         statements = []
         nested_level = 0
         current_statement = ""
@@ -121,6 +120,5 @@ class PascalInterpreter:
         else:
             raise ValueError(f"Unknown operator {operator}")
 
-# Create an instance of the PascalInterpreter with the filename of the Pascal source code.
-interpreter = PascalInterpreter('3.pas')
+interpreter = PascalInterpreter('2.pas')
 interpreter.execute()

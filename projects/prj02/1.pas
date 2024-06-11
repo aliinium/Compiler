@@ -1,5 +1,6 @@
 var
-   x:integer;
+  x:integer;
+
 begin
   x:=4;
   writeln(x);
