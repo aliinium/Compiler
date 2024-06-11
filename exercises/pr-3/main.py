@@ -176,7 +176,7 @@ def splitter(txt):
     return final
             
 
-with open("Codd1.txt" , "r") as file : 
+with open("/Users/aliinium/Desktop/Uni-Assignments/Compiler/exercises/pr-3/Code.txt" , "r") as file : 
     f = file.readlines()
 
 data = {}
